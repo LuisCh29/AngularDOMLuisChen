@@ -12,4 +12,5 @@ import {DomComponent} from "./dom/dom.component";
 })
 export class AppComponent {
   title = 'AngularDOMLuisChen';
+    protected readonly document = document;
 }
