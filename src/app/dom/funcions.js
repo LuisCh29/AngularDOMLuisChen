@@ -16,3 +16,9 @@ export function countWords(){
   }
   return contador
 }
+
+
+export function imatge() {
+  document.getElementById('foto')
+  foto.innerHTML = '<img src= "https://www.irontec.com/image/trainingsFull/49-AngularLogo.png">'
+}
